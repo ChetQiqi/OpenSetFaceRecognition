@@ -1,0 +1,24 @@
+% 分层数据集表格 - Known分为Gallery和Test Known两个子行
+% 用于论文中展示开放集数据集的划分策略
+
+\begin{table}[htbp]
+\centering
+\caption{Gallery与Test Known集的构建策略}
+\label{tab:gallery_test_split}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{数据集} & \textbf{ID数量} & \textbf{特征数量} & \textbf{用途} \\
+\hline
+\multirow{2}{*}{\textbf{已知人(Known Persons)}} & \multirow{2}{*}{89个} & 890条 & 构建注册库 \\
+ & & (10条/人) & 计算自适应阈值 ($\mu - 2\sigma$) \\
+\cline{2-4}
+ & & 890条 & 评估已知类准确率 \\
+ & & (10条/人) & (Known Class Accuracy) \\
+\hline
+\textbf{未知人(Unknown Persons)} & 100个 & 12,345条 & 评估未知人检测率 \\
+ & & (~123条/人) & (Unknown Detection Rate) \\
+\hline
+\textbf{总计} & 189个 & 14,125条 & 完整评估系统性能 \\
+\hline
+\end{tabular}
+\end{table}

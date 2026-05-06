@@ -1,0 +1,22 @@
+% 清晰的分层数据集表格 - 更重的强调Gallery/Test Known分割
+
+\begin{table}[htbp]
+\centering
+\caption{开放集数据集的分层划分：已知人和未知人的构建策略}
+\label{tab:dataset_hierarchy}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{数据集} & \textbf{身份数} & \textbf{样本数} & \textbf{用途} \\
+\hline
+\multirow{3}{*}{\textbf{已知人(Known, 45\%)}}
+  & \multirow{3}{*}{89}
+  & 890 (10/人) & Gallery: 构建注册库、计算自适应阈值 $T_i = \mu_i - 2\sigma_i$ \\
+\cline{3-4}
+  &  & 890 (10/人) & Test Known: 评估已知类准确率 (KCA) \\
+\hline
+\textbf{未知人(Unknown, 55\%)} & 100 & 12,345 (~123/人) & Test Unknown: 评估未知人检测率 (UDR) \\
+\hline
+\multicolumn{2}{|c|}{\textbf{总计}} & 14,125 & 完整开放集评估 \\
+\hline
+\end{tabular}
+\end{table}

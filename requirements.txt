@@ -1,0 +1,23 @@
+# Face Recognition System Requirements
+# 人脸识别系统依赖
+
+# Core dependencies
+numpy<2.0                    # Ensure NumPy 1.x compatibility (fix the NumPy 2.x issue)
+opencv-python>=4.5.0        # Computer vision library
+torch>=1.12.0               # Deep learning framework
+mtcnn>=0.1.1                # Face detection
+scipy>=1.7.0                # Scientific computing
+scikit-image>=0.18.0        # Image processing
+scikit-learn>=0.24.0        # Machine learning
+pandas>=1.1.0               # Data manipulation
+
+# GUI and optional
+pillow>=8.0.0               # Image library
+matplotlib>=3.3.0           # Plotting library
+streamlit>=1.20.0           # Modern web UI framework (推荐)
+gradio>=3.0.0               # Alternative web interface
+
+# Development
+pytest>=6.0.0               # Testing
+black>=21.0.0               # Code formatting
+pylint>=2.0.0               # Code linting

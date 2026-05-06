@@ -1,0 +1,71 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+tmp/
+temp/
+.cache/
+
+# =========================
+# Runtime outputs
+# =========================
+camera_eval/
+video_eval/
+threshold_analysis/
+
+# Evaluation results
+# Matches directories like evaluation_results_casia200, evaluation_results_YTF_full, etc.
+evaluation_results_*/
+
+# Thesis eval generated artifacts (keep docs/table sources)
+thesis_eval/*.csv
+thesis_eval/*.json
+thesis_eval/*.png
+!thesis_eval/*.md
+!thesis_eval/*.tex
+
+# =========================
+# Open-set / benchmark generated data
+# =========================
+benchmark/
+# benchmark/open_set_data/
+# benchmark/open_set_data_*/
+# benchmark/train/
+# benchmark/test/
+
+# Uncomment if you do NOT want to upload experiment databases
+# benchmark/*.db
+# *.db
+
+# =========================
+# Large artifacts
+# =========================
+*.mp4
+*.npy
+*.npz
+
+# Model weights (usually large)
+weights/*.pt
+weights/*.pth
+weights/*.onnx
