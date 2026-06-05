@@ -1,0 +1,92 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# =========================
+# Local dev tools
+# =========================
+.claude/
+CLAUDE.md
+AI_gen.md
+.streamlit/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+tmp/
+temp/
+.cache/
+
+# =========================
+# Runtime outputs
+# =========================
+camera_eval/
+video_eval/
+threshold_analysis/
+ai_portraits/
+generated_portraits/
+
+# =========================
+# Model weights (too large for git)
+# =========================
+weights/*.pt
+weights/*.pth
+weights/*.onnx
+weights/hf_cache/
+weights/managed/
+
+# =========================
+# Benchmark data (face images & databases)
+# =========================
+benchmark/
+
+# =========================
+# Frontend (Node.js)
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# Large artifacts
+# =========================
+*.mp4
+*.npy
+*.npz
+
+# =========================
+# Old evaluation / thesis (keep out of repo)
+# =========================
+evaluation_results_*/
+thesis_eval/
+
+# =========================
+# Stray / temp files
+# =========================
+*.bak
+*.tmp
+*.zip

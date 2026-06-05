@@ -1,0 +1,6 @@
+{
+  "name": "Face Recognition System",
+  "description": "An interactive AI-powered Face Recognition System dashboard based on E-RECOGNITION and Sentinel AI specs, presenting real-time analysis, database enrollment, model benchmarking, and full API endpoint simulations. Built without custom framework dependencies using standard React and Tailwind CSS.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
