@@ -51,7 +51,7 @@ PAN_URL = ""        # 例如: "https://pan.baidu.com/s/xxxxx"
 PAN_CODE = ""       # 提取码
 
 # GitHub Releases 直链（创建 Release 后自动生成）
-GITHUB_RELEASE_URL = ""  # 例如: "https://github.com/用户名/RecognitionSystem/releases/download/v1.0/model_best.pt"
+GITHUB_RELEASE_URL = "https://github.com/ChetQiqi/OpenSetFaceRecognition/releases/download/v1.0/model_best.pt"
 
 # 其他直链
 DIRECT_URL = ""     # 例如: "https://你的服务器/model_best.pt"
